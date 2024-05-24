@@ -50,6 +50,7 @@ a {
 
 .card-title {
     font-size: 16px;
+
 }
 
 .euro {
@@ -76,6 +77,46 @@ a {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+}
+
+.plus {
+   font-size: 18; 
+   font-weight: 700;
+}
+
+.cardhebergement{
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+}
+
+.cardhebergement img {
+    object-fit: cover;
+    height: 110px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px
+}
+
+.hebergements h2 {
+    font-size: 22px;
+}
+
+
+
+.card-txt h3 {
+    font-size: 16px;
+    margin: 4px 15px 8px 15px;
+}
+
+.card-txt p {
+    font-size: 14px;
+    margin: 4px 15px 8px 15px;
+}
+
+.card-etoiles {
+    font-size: 16px;
+    margin: 4px 15px 8px 15px;
 }
 
 /****** Populaires ***********/
@@ -126,7 +167,6 @@ header {
     display: flex; /* Active Flexbox */
     justify-content: space-between; /* Sépare le contenu entre les deux extrémités */
     align-items: center; /* Centre les éléments verticalement */
-    padding: 10px 20px; /* Espacement intérieur du header */
     background-color: #ffffff; /* Couleur de fond de l'en-tête */
 }
 
@@ -192,8 +232,6 @@ header {
 }
 
 .recherche-forme input[type="search"] {
-    padding-top: 14px;
-    padding-bottom: 14px;
     border: 1px solid #F2F2F2; 
     text-align: center;
     font-weight: 700;
@@ -322,6 +360,15 @@ footer{
     font-size: 16px;
 }
 
+.blochebergement{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    gap:30px;
+    margin-top:30px;
+    margin-bottom:30px;
+    border-radius: 15px; 
+    height: 450px;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
